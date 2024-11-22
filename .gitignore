@@ -1,0 +1,61 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Django-specific
+*.log
+*.pot
+*.py[cod]
+db.sqlite3
+/media/
+*.pid
+*.sqlite3
+
+# If you're using Postgres
+*.psql
+
+# Environment variables and secret files
+.env
+.env.*
+
+# Static and media files
+/static/
+!/static/.gitkeep
+/media/
+!/media/.gitkeep
+
+# Virtual environment
+venv/
+ENV/
+.env/
+
+# Editor/IDE configurations
+*.swp
+.idea/
+.vscode/
+*.sublime*
+
+# Migrations (optional, can be included in some workflows)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Coverage reports
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Test-related files
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Cache
+*.egg-info/
+.eggs/
+dist/
+build/
+__pycache__/
+*.egg
